@@ -35,7 +35,7 @@ body{
     transition:color 0.5s;
 }
 .up a .icon:hover{
-    color: var(--dark-color);
+    color: var(--dark-color2);
     background-color: #f5deb3;
     border-radius: 50%;
 }
@@ -78,7 +78,7 @@ body{
 }
 .header .container .nav li:hover a{
     background-color: var(--fontcolor);
-    color: var(--mainColor);
+    color: var(--dark-color2);
 }
 .header .container .nav li a{
     padding:1.5rem 01rem;
@@ -102,13 +102,13 @@ body{
     text-decoration: none;
     display: block;
     background-color: var(--fontcolor);
-    color: var(--mainColor);
+    color: var(--dark-color2);
     width: 300%;
     opacity: 0;
     text-align: center;
 }
 .header .container .nav .droplist .menu li a:hover{
-    background-color: var(--mainColor);
+    background-color: var(--dark-color2);
     color: var(--fontcolor);
 }
 .header .container .nav .droplist:hover .menu li a{
